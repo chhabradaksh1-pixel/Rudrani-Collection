@@ -8,6 +8,7 @@ import {
 } from "@/data/products";
 import { ProductCard } from "@/components/ProductCard";
 import { SHOP_THE_LOOK } from "@/data/navigation";
+import { BrandIllustration } from "@/components/BrandIllustration";
 
 function HeroSection() {
   return (
@@ -259,6 +260,7 @@ export default function HomePage() {
       <ShopTheLook />
       <NishotsavBanner />
       <InstagramStrip />
+      <BrandIllustration />
     </>
   );
 }
